@@ -92,30 +92,18 @@ public class IPInfo {
     }
 
     public String toString() {
-        StringBuilder builder = new StringBuilder();
-        builder.append("IP: ")
-                .append(this.ip + "\n")
-                .append("Hostname: ")
-                .append(this.hostname + "\n")
-                .append("City: ")
-                .append(this.city + "\n")
-                .append("Region: ")
-                .append(this.region + "\n")
-                .append("Country: ")
-                .append(this.country + "\n")
-                .append("LOC: ")
-                .append(this.loc + "\n")
-                .append("ORG: ")
-                .append(this.org + "\n")
-                .append("Postal: ")
-                .append(this.postal + "\n")
-                .append("Timezone: ")
-                .append(this.timezone + "\n")
-                .append("Read Me: ")
-                .append(this.readme);
 
 
-        return builder.toString();
+        return "IP: " + this.ip + "\n" +
+                "Hostname: " + this.hostname + "\n" +
+                "City: " + this.city + "\n" +
+                "Region: " + this.region + "\n" +
+                "Country: " + this.country + "\n" +
+                "LOC: " + this.loc + "\n" +
+                "ORG: " + this.org + "\n" +
+                "Postal: " + this.postal + "\n" +
+                "Timezone: " + this.timezone + "\n" +
+                "Read Me: " + this.readme;
     }
 }
 
